@@ -1,7 +1,6 @@
 **1. Depth from disparity**
-   - Denoising images with
-     1. AutoEncoder with Batch Normalization and Bilinear Upsampling
-     2. Deeper Architectures, those with Skip Connections, as well as Averaging the Results across iterations.
+   - Evaluated two simple denoising algorithms, namely Gaussian filtering and median filtering.
+   - In addition, also implemented a more advanced algorithm based on nonlocal means.
     
 **2. Scale-space blob detection**
    -  Built a Laplacian scale space, starting with some initial scale and going for n iterations:
