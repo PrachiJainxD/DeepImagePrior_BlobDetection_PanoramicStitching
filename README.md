@@ -1,6 +1,6 @@
 **1. Depth from disparity**
-   - Evaluated two simple denoising algorithms, namely Gaussian filtering and median filtering.
-   - In addition, also implemented a more advanced algorithm based on nonlocal means.
+   - 1. Evaluated two simple denoising algorithms, namely Gaussian filtering and median filtering.
+   - 2. In addition, also implemented a more advanced algorithm based on nonlocal means.
     
 **2. Scale-space blob detection**
    -  Built a Laplacian scale space, starting with some initial scale and going for n iterations:
