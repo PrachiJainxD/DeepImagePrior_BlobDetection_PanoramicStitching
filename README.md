@@ -5,9 +5,9 @@
     
 **2. Scale-space blob detection**
    -  Built a Laplacian scale space, starting with some initial scale and going for n iterations:
-     (a) Filter image with scale-normalized Laplacian at current scale.
-     (b) Save the square of Laplacian response for current level of scale space.
-     (c) Increase scale by a factor k.
+   -  (a) Filter image with scale-normalized Laplacian at current scale.
+   -  (b) Save the square of Laplacian response for current level of scale space.
+   -  (c) Increase scale by a factor k.
    -   Perform non-maximum suppression in scale space.
    -   Display resulting circles at their characteristic scales for points above a threshold.
 
